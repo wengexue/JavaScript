@@ -1,0 +1,12 @@
+//
+   Created by xuewenwen on 6/3/2015.
+
+h1 Subjects
+label(class='col-sm-2, control-label') New Subject
+input.form-control(type='text', ng-model='subjectsController.newSubject')
+button(ng-click="subjectsController.addItem()") Add Item
+button(ng-click="subjectsController.saveItems()") Save Items
+button(ng-click="subjectsController.deleteSelected()") Delete Selected
+ul
+   li(ng-repeat='subject in subjectsController.data.subjects')
+      span {{subject}}

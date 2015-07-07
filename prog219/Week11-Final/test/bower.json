@@ -1,0 +1,8 @@
+{
+  "name": "week10-angularonepage",
+  "version": "0.0.0",
+  "dependencies": {
+      "jasmine": "~1.3.1"
+  },
+  "devDependencies": {}
+}

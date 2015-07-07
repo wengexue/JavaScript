@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    //link(rel="stylesheet", href="components/jasmine/lib/jasmine-core/jasmine.css")
+    link(rel="stylesheet", href="components/bootstrap/dist/css/bootstrap.css")
+    link(rel="stylesheet", href="components/bootstrap/dist/css/bootstrap-theme.css")
+
+    //<script src="components/jasmine/lib/jasmine-core/jasmine.js"></script>
+    //<script src="components/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="components/jasmine/lib/jasmine-core/boot.js"></script>
+    script(src="components/jquery/dist/jquery.js")
+    script(src="components/bootstrap/dist/js/bootstrap.js")
+
+    <!-- include source files here... -->
+    script(src="components/jquery/dist/jquery.js")
+    script(src="components/angular/angular.js")
+    script(src="components/angular-mocks/angular-mocks.js")
+    script(src="components/angular-resource/angular-resource.js")
+    script(src="javascripts/Control.js")
+    //script(src="javascripts/MusicFacade.js")
+    //script(src="javascripts/SimpleMusicData.js")
+    script(src="javascripts/MusicResource.js")
+    //script(src="javascripts/Test.js")
+
+body(ng-app="elvenApp")
+    block content

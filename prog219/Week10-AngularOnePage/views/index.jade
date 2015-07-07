@@ -1,0 +1,25 @@
+extends layout
+block content
+    .container
+        .header
+            nav.navbar-default.navbar-fixed-top
+                ul.nav.nav-pills
+                    li(ng-class="{ active: isActive('/')}")
+                        a(ng-href='#/') Home
+                    li(ng-class="{ active: isActive('/edit')}")
+                        a(ng-href='#/edit') Edit
+                    li(ng-class="{ active: isActive('/subjects')}")
+                        a(ng-href='#/subjects') Subjects
+                    li(ng-class="{ active: isActive('/comments')}")
+                        a(ng-href='#/comments') Comments
+                    li(ng-class="{ active: isActive('/about')}")
+                        a(ng-href='#/about') About
+        div.jumbotron
+            h1= title
+            p Welcome to #{title}
+        #monogoData(data-ng-view="")
+        hr
+        .footer
+            p
+                span.glyphicon.glyphicon-grain
+                |  from Elvenware

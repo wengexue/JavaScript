@@ -1,0 +1,26 @@
+//Created by xuewenwen on 6/3/2015.
+
+h3 Current Item:
+//p hint: {{editController.hint}}
+//div(science-Input="")
+
+div(ng-form="myform")
+   .form-group
+      label(class='col-sm-2, control-label') First Name
+      input.form-control(type='text', ng-model='editController.data.firstName')
+
+      label(class='col-sm-2, control-label') Last Name
+      input.form-control(type='text', ng-model='editController.data.lastName')
+
+      label(class='col-sm-2, control-label') Genre
+      input.form-control(type='text', ng-model='editController.data.genre')
+
+br
+
+button(data-ng-click="editController.saveCurrentDocument()") Update Current Document
+
+button(data-ng-click="editController.insertDocument()") Insert New Document
+
+button(data-ng-click="editController.delDocument()") Delete Current Document
+
+br

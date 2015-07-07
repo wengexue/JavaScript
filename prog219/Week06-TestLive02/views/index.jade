@@ -1,0 +1,44 @@
+extends layout
+block content
+  h1= title
+  p Welcome to #{title}
+  #monogoData(ng-controller='MyController as myController')
+    p This project retrieves data from a Mongo DB Server.
+    button(ng-click='myController.loadScientists()') Load Scientists
+    p(ng-model="myController.firstName")
+    br
+    .inputDiv
+      p Rows in DB: {{myController.scientistsLength}}
+      ul
+        li(ng-repeat='scientist in myController.scientists')
+          {{scientist.firstName}} {{scientist.lastName}}: <strong>{{scientist.subject}}</strong>
+      div(ng-bind-html-unsafe='hint')
+    .inputDiv
+      input(type='text', ng-model='myController.firstName')
+      input(type='text', ng-model='myController.lastName', placeholder='subject')
+      input(type='text', ng-model='myController.subject', placeholder='subject')
+      button(ng-click='myController.newScientist()') Add Scientist
+      hr
+      input(type='number', ng-change='myController.indexChange()', ng-model='myController.currentItem', min='0', max='{{myController.scientistsLength-1}}')
+      button(ng-click='myController.deleteRow()') Delete
+      button(ng-click='myController.updateRow()') Update
+      button(ng-click='myController.loadDocument()') Load Document
+      hr
+      div
+        p Current Select Item {{myController.currentItem}}: {{subject}}
+        #document(ng-bind-html="myController.document")
+
+      hr
+      p {{myController.hint}}
+
+      input#hint(type="text" ng-model="myController.hint")
+
+      button(ng-click="myController.loadJson('./data.json')") Load JSON
+      button(ng-click="myController.getMarie()") Get Marie
+
+      div
+        p {{myController.marie}}
+        <elf-marie></elf-marie>
+
+      div
+        p {{myController.data}}

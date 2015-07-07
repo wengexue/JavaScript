@@ -1,0 +1,65 @@
+//   Created by wenge.xue on 5/20/2015.
+
+//h4 Welcome to #{title} page
+br
+//.jumbotron
+    h1= title
+    p Welcome to #{title}
+
+#monogoData(ng-controller='MyController as myController')
+    p This project retrieves data from a Mongo DB Server.
+    button(class="btn btn-default" ng-click='myController.loadMusicians()') Load Musicians
+    p(ng-model="myController.firstName")
+    .inputDiv
+        p Rows in DB: {{myController.musiciansLength}}
+        ul.list-group
+            li.list-group-item(ng-repeat='musician in myController.musicians')
+                {{$index}} -- {{musician.firstName}} {{musician.lastName}}: <strong>{{musician.genre}}</strong>
+    div(ng-bind-html-unsafe='hint')
+    hr
+    .inputDiv
+        form(role='form')
+            .form-group
+                .col-xs-3
+                    label(for='ex1') First Name:
+                    input#ex1.form-control(type='text', ng-model='myController.firstName', placeholder='first name')
+                .col-xs-3
+                    label(for='ex2') Last Name:
+                    input#ex2.form-control(type='text', ng-model='myController.lastName', placeholder='last name')
+                .col-xs-3
+                    label(for='ex3') Genre:
+                    input#ex3.form-control(type='text', ng-model='myController.genre', placeholder='genre')
+                br
+                button(class="btn btn-default" id='Add' disabled='' ng-click='myController.newMusician()') Add Musician
+            br
+
+            .form-group
+                .col-xs-2
+                    p Current Item:
+                    input.form-control(type='number', placeholder='Select' ng-change='myController.indexChange()', ng-model='myController.currentItem', min='0', max='{{myController.musiciansLength-1}}')
+                br
+                button.btn.btn-default(type='button' id='Del' disabled='' ng-click='myController.deleteRow()') Delete
+                button.btn.btn-default(type='button' id='Update' disabled='' ng-click='myController.updateRow()') Update
+                button.btn.btn-default(type='button' style='visibility:hidden;' ng-click='myController.loadDocument()') Load Document
+        hr
+        .inputDiv
+            //p Current Select Item {{myController.currentItem}}: {{genre}}
+            p {{genre}}
+            #document(ng-bind-html="myController.document")
+
+        hr
+        .inputDiv
+            p {{myController.hint}}
+            .form-group
+                .col-xs-2
+                    input.form-control#hint(type="text" ng-model="myController.hint")
+                button.btn.btn-default(type='button' ng-click="myController.loadJson('./data.json')") Load JSON
+                button.btn.btn-default(type='button' id='GetRow' disabled='' ng-click="myController.getCurrentRow()") Get Current Row
+            br
+            div
+                p {{myController.currentRow}}
+                <elf-marie></elf-marie>
+            div
+                br
+                p {{myController.data}}
+            br

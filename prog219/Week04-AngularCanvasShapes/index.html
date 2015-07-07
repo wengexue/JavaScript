@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="elvenApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Week04-AngularCanvasShapes-Xue</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="index.js"></script>
+    <script src="drawMacine.js"></script>
+</head>
+<body >
+<h1>Shape Controller</h1>
+<div ng-controller="DrawController as drawControl" >
+    <ul class="unstyled">
+        <li ng-repeat="shape in drawControl.shapeList">
+            {{ shape }}
+        </li>
+    </ul>
+    <button ng-click="drawControl.drawShape()">Draw Shape</button>
+    <br>
+    <br>
+    <canvas id="myCanvas" >
+        If you see this text, then your browser does not support the Canvas Element
+    </canvas>
+
+</div>
+</body>
+</html>

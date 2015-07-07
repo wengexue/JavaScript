@@ -1,0 +1,12 @@
+//
+   Created by xuewenwen on 6/3/2015.
+hr
+ul
+    li(data-ng-repeat='scientist in mongoController.allData')
+        <a ng-click="mongoController.selectScientist(scientist)"> {{scientist.id}} {{scientist.name}} </a>
+h2 Main
+div(science-show="")
+h2 Subjects
+p {{mongoController.data.subjects}}
+h2 Comments
+p {{mongoController.data.comments}}

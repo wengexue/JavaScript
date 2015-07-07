@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  #myController(ng-controller="MyController as myController")
+    p {{myController.hint}}
+
+    input#hint(type="text" ng-model="myController.hint")
+
+    hr
+    br
+
+    button(ng-click="myController.loadJson('./data.json')") Load JSON
+
+    div
+      p {{myController.data}}

@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="components/jasmine/lib/jasmine-core/jasmine.css")
+    <script src="components/jasmine/lib/jasmine-core/jasmine.js"></script>
+    <script src="components/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="components/jasmine/lib/jasmine-core/boot.js"></script>
+    <!-- include source files here... -->
+    script(src="components/jquery/dist/jquery.js")
+    script(src="components/angular/angular.js")
+    script(src="components/angular-mocks/angular-mocks.js")
+    script(src="components/angular-resource/angular-resource.js")
+    script(src="javascripts/Control.js")
+    script(src="javascripts/ScienceFacade.js")
+    script(src="javascripts/SimpleScienceData.js")
+    //script(src="javascripts/ScienceResource.js")
+    script(src="javascripts/Test.js")
+
+body(ng-app="elvenApp")
+    block content

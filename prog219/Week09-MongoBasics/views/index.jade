@@ -1,0 +1,14 @@
+extends layout
+block content
+    h1= title
+    p Welcome to #{title}
+    div(ng-controller="MongoController as mongoController")
+        div {{mongoController.allData}}
+        br
+        input(type='number',
+        ng-change='mongoController.indexChange()',
+        ng-model='mongoController.currentItem',
+        min='0', max='{{mongoController.scientistsLength-1}}')
+        br
+        br
+        <elf-marie></elf-marie>

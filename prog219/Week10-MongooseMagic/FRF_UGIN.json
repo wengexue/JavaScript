@@ -1,0 +1,591 @@
+{
+    "name": "Ugin's Fate promos",
+    "code": "FRF_UGIN",
+    "releaseDate": "2015-01-17",
+    "border": "black",
+    "type": "promo",
+    "cards": [
+        {
+            "layout": "normal",
+            "type": "Creature — Hound Scout",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "multiverseid": 394065,
+            "name": "Ainok Tracker",
+            "subtypes": [
+                "Hound",
+                "Scout"
+            ],
+            "cmc": 6,
+            "rarity": "Common",
+            "artist": "Evan Shipard",
+            "power": "3",
+            "toughness": "3",
+            "manaCost": "{5}{R}",
+            "text": "First strike\nMorph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+            "flavor": "\"The ainok are wild dogs, not fit to join us around the fire.\"\n—Surrak, the Hunt Caller",
+            "number": "96",
+            "imageName": "ainok tracker"
+        },
+        {
+            "layout": "normal",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ],
+            "multiverseid": 394066,
+            "name": "Altar of the Brood",
+            "cmc": 1,
+            "rarity": "Rare",
+            "artist": "Erica Yang",
+            "manaCost": "{1}",
+            "text": "Whenever another permanent enters the battlefield under your control, each opponent puts the top card of his or her library into his or her graveyard.",
+            "flavor": "Supplicants offer flesh and silver, flowers and blood. The altar takes what it will, eyes gleaming with unspoken promises.",
+            "number": "216",
+            "imageName": "altar of the brood"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Beast",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "multiverseid": 394067,
+            "name": "Arashin War Beast",
+            "subtypes": [
+                "Beast"
+            ],
+            "cmc": 7,
+            "rarity": "Uncommon",
+            "artist": "Eric Deschamps",
+            "power": "6",
+            "toughness": "6",
+            "manaCost": "{5}{G}{G}",
+            "text": "Whenever Arashin War Beast deals combat damage to one or more blocking creatures, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "number": "123",
+            "watermark": "Temur",
+            "imageName": "arashin war beast"
+        },
+        {
+            "layout": "normal",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "multiverseid": 394068,
+            "name": "Arc Lightning",
+            "cmc": 3,
+            "rarity": "Uncommon",
+            "artist": "Seb McKinnon",
+            "manaCost": "{2}{R}",
+            "text": "Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.",
+            "flavor": "Lightning burns the dragon's path.",
+            "number": "97",
+            "imageName": "arc lightning"
+        },
+        {
+            "layout": "normal",
+            "type": "Artifact",
+            "types": [
+                "Artifact"
+            ],
+            "multiverseid": 394069,
+            "name": "Briber's Purse",
+            "cmc": 0,
+            "rarity": "Uncommon",
+            "artist": "Steve Argyle",
+            "manaCost": "{X}",
+            "text": "Briber's Purse enters the battlefield with X gem counters on it.\n{1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.",
+            "flavor": "The bigger the hand, the higher the price.",
+            "number": "217",
+            "imageName": "briber's purse"
+        },
+        {
+            "layout": "normal",
+            "type": "Enchantment — Aura",
+            "types": [
+                "Enchantment"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "multiverseid": 394070,
+            "name": "Debilitating Injury",
+            "subtypes": [
+                "Aura"
+            ],
+            "cmc": 2,
+            "rarity": "Common",
+            "artist": "Slawomir Maniak",
+            "manaCost": "{1}{B}",
+            "text": "Enchant creature\nEnchanted creature gets -2/-2.",
+            "flavor": "Weakness exists within all who are not dragons.",
+            "number": "68",
+            "imageName": "debilitating injury"
+        },
+        {
+            "layout": "normal",
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "multiverseid": 394071,
+            "name": "Dragonscale Boon",
+            "cmc": 4,
+            "rarity": "Common",
+            "artist": "Mark Winters",
+            "manaCost": "{3}{G}",
+            "text": "Put two +1/+1 counters on target creature and untap it.",
+            "flavor": "Only those who have proved themselves worthy are granted a dragon's scale.",
+            "number": "131",
+            "imageName": "dragonscale boon"
+        },
+        {
+            "layout": "normal",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "multiverseid": 394072,
+            "name": "Fierce Invocation",
+            "cmc": 5,
+            "rarity": "Common",
+            "artist": "Tyler Jacobson",
+            "manaCost": "{4}{R}",
+            "text": "Manifest the top card of your library, then put two +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "flavor": "Anger can empower those who embrace it.",
+            "number": "98",
+            "imageName": "fierce invocation"
+        },
+        {
+            "layout": "normal",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "multiverseid": 394073,
+            "name": "Formless Nurturing",
+            "cmc": 4,
+            "rarity": "Common",
+            "artist": "Cliff Childs",
+            "manaCost": "{3}{G}",
+            "text": "Manifest the top card of your library, then put a +1/+1 counter on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "number": "129",
+            "imageName": "formless nurturing"
+        },
+        {
+            "layout": "normal",
+            "type": "Artifact — Equipment",
+            "types": [
+                "Artifact"
+            ],
+            "multiverseid": 394074,
+            "name": "Ghostfire Blade",
+            "subtypes": [
+                "Equipment"
+            ],
+            "cmc": 1,
+            "rarity": "Rare",
+            "artist": "Cyril Van Der Haegen",
+            "manaCost": "{1}",
+            "text": "Equipped creature gets +2/+2.\nEquip {3}\nGhostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.",
+            "flavor": "If you fear the dragon's fire, you are unworthy to wield it.",
+            "number": "220",
+            "imageName": "ghostfire blade"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Human Wizard",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "multiverseid": 394075,
+            "name": "Grim Haruspex",
+            "subtypes": [
+                "Human",
+                "Wizard"
+            ],
+            "cmc": 3,
+            "rarity": "Rare",
+            "artist": "Seb McKinnon",
+            "power": "3",
+            "toughness": "2",
+            "manaCost": "{2}{B}",
+            "text": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhenever another nontoken creature you control dies, draw a card.",
+            "flavor": "\"Your enemies may be cowardly, my lord, but one should never call them gutless.\"",
+            "number": "73",
+            "imageName": "grim haruspex"
+        },
+        {
+            "layout": "normal",
+            "type": "Artifact Creature — Golem",
+            "types": [
+                "Artifact",
+                "Creature"
+            ],
+            "multiverseid": 394076,
+            "name": "Hewed Stone Retainers",
+            "subtypes": [
+                "Golem"
+            ],
+            "cmc": 3,
+            "rarity": "Uncommon",
+            "artist": "David Seguin",
+            "power": "4",
+            "toughness": "4",
+            "manaCost": "{3}",
+            "text": "Cast Hewed Stone Retainers only if you've cast another spell this turn.",
+            "flavor": "\"Their origins are shrouded in mystery. I believe they are the protectors of the lost secrets of our world.\"\n—Jilaya, Temur whisperer",
+            "number": "161",
+            "imageName": "hewed stone retainers"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Goblin Rogue",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Red"
+            ],
+            "multiverseid": 394077,
+            "name": "Jeering Instigator",
+            "subtypes": [
+                "Goblin",
+                "Rogue"
+            ],
+            "cmc": 2,
+            "rarity": "Rare",
+            "artist": "Willian Murai",
+            "power": "2",
+            "toughness": "1",
+            "manaCost": "{1}{R}",
+            "text": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+            "number": "113",
+            "imageName": "jeering instigator"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Human Monk",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "multiverseid": 394078,
+            "name": "Jeskai Infiltrator",
+            "subtypes": [
+                "Human",
+                "Monk"
+            ],
+            "cmc": 3,
+            "rarity": "Rare",
+            "artist": "Cynthia Sheppard",
+            "power": "2",
+            "toughness": "3",
+            "manaCost": "{2}{U}",
+            "text": "Jeskai Infiltrator can't be blocked as long as you control no other creatures.\nWhen Jeskai Infiltrator deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "number": "36",
+            "watermark": "Jeskai",
+            "imageName": "jeskai infiltrator"
+        },
+        {
+            "layout": "normal",
+            "type": "Enchantment",
+            "types": [
+                "Enchantment"
+            ],
+            "colors": [
+                "White"
+            ],
+            "multiverseid": 394079,
+            "name": "Mastery of the Unseen",
+            "cmc": 2,
+            "rarity": "Rare",
+            "artist": "Daniel Ljunggren",
+            "manaCost": "{1}{W}",
+            "text": "Whenever a permanent you control is turned face up, you gain 1 life for each creature you control.\n{3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "number": "19",
+            "imageName": "mastery of the unseen"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Human Monk",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "multiverseid": 394080,
+            "name": "Mystic of the Hidden Way",
+            "subtypes": [
+                "Human",
+                "Monk"
+            ],
+            "cmc": 5,
+            "rarity": "Common",
+            "artist": "Ryan Alexander Lee",
+            "power": "3",
+            "toughness": "2",
+            "manaCost": "{4}{U}",
+            "text": "Mystic of the Hidden Way can't be blocked.\nMorph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+            "flavor": "\"There are many different paths. The Great Teacher reveals them all.\"",
+            "number": "48",
+            "imageName": "mystic of the hidden way"
+        },
+        {
+            "layout": "normal",
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "multiverseid": 394081,
+            "name": "Reality Shift",
+            "cmc": 2,
+            "rarity": "Uncommon",
+            "artist": "Howard Lyon",
+            "manaCost": "{1}{U}",
+            "text": "Exile target creature. Its controller manifests the top card of his or her library. (That player puts the top card of his or her library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)",
+            "number": "46",
+            "imageName": "reality shift"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Human Assassin",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "multiverseid": 394082,
+            "name": "Ruthless Ripper",
+            "subtypes": [
+                "Human",
+                "Assassin"
+            ],
+            "cmc": 1,
+            "rarity": "Uncommon",
+            "artist": "Clint Cearley",
+            "power": "1",
+            "toughness": "1",
+            "manaCost": "{B}",
+            "text": "Deathtouch\nMorph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Ruthless Ripper is turned face up, target player loses 2 life.",
+            "number": "88",
+            "imageName": "ruthless ripper"
+        },
+        {
+            "layout": "normal",
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "colors": [
+                "White"
+            ],
+            "multiverseid": 394083,
+            "name": "Smite the Monstrous",
+            "cmc": 4,
+            "rarity": "Common",
+            "artist": "Greg Staples",
+            "manaCost": "{3}{W}",
+            "text": "Destroy target creature with power 4 or greater.",
+            "flavor": "The changing of a single moment in Tarkir's past altered its future, rewriting its history.",
+            "number": "24",
+            "imageName": "smite the monstrous"
+        },
+        {
+            "layout": "normal",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "colors": [
+                "White"
+            ],
+            "multiverseid": 394084,
+            "name": "Soul Summons",
+            "cmc": 2,
+            "rarity": "Common",
+            "artist": "Johann Bodin",
+            "manaCost": "{1}{W}",
+            "text": "Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "flavor": "Ugin's magic reaches beyond the dragons. The clans have adapted it for war.",
+            "number": "26",
+            "imageName": "soul summons"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Zombie Warrior",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "Black"
+            ],
+            "multiverseid": 394085,
+            "name": "Sultai Emissary",
+            "subtypes": [
+                "Zombie",
+                "Warrior"
+            ],
+            "cmc": 2,
+            "rarity": "Common",
+            "artist": "Mathias Kollros",
+            "power": "1",
+            "toughness": "1",
+            "manaCost": "{1}{B}",
+            "text": "When Sultai Emissary dies, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "flavor": "To the Sultai, Ugin's power was just one more resource to be exploited.",
+            "number": "85",
+            "watermark": "Sultai",
+            "imageName": "sultai emissary"
+        },
+        {
+            "layout": "normal",
+            "type": "Artifact Creature — Construct",
+            "types": [
+                "Artifact",
+                "Creature"
+            ],
+            "multiverseid": 394087,
+            "name": "Ugin's Construct",
+            "subtypes": [
+                "Construct"
+            ],
+            "cmc": 4,
+            "rarity": "Uncommon",
+            "artist": "Peter Mohrbacher",
+            "power": "4",
+            "toughness": "5",
+            "manaCost": "{4}",
+            "text": "When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.",
+            "flavor": "While trapping the Eldrazi on Zendikar, Ugin learned little from Sorin, but he gleaned the rudiments of lithomancy from Nahiri.",
+            "number": "164",
+            "imageName": "ugin's construct"
+        },
+        {
+            "layout": "normal",
+            "type": "Planeswalker — Ugin",
+            "types": [
+                "Planeswalker"
+            ],
+            "multiverseid": 394086,
+            "name": "Ugin, the Spirit Dragon",
+            "subtypes": [
+                "Ugin"
+            ],
+            "cmc": 8,
+            "rarity": "Mythic Rare",
+            "artist": "Chris Rahn",
+            "loyalty": 7,
+            "manaCost": "{8}",
+            "text": "+2: Ugin, the Spirit Dragon deals 3 damage to target creature or player.\n−X: Exile each permanent with converted mana cost X or less that's one or more colors.\n−10: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
+            "number": "1",
+            "imageName": "ugin, the spirit dragon"
+        },
+        {
+            "layout": "normal",
+            "type": "Creature — Bird Soldier",
+            "types": [
+                "Creature"
+            ],
+            "colors": [
+                "White"
+            ],
+            "multiverseid": 394088,
+            "name": "Watcher of the Roost",
+            "subtypes": [
+                "Bird",
+                "Soldier"
+            ],
+            "cmc": 3,
+            "rarity": "Uncommon",
+            "artist": "Jack Wang",
+            "power": "2",
+            "toughness": "1",
+            "manaCost": "{2}{W}",
+            "text": "Flying\nMorph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Watcher of the Roost is turned face up, you gain 2 life.",
+            "number": "30",
+            "imageName": "watcher of the roost"
+        },
+        {
+            "layout": "normal",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "colors": [
+                "Green"
+            ],
+            "multiverseid": 394089,
+            "name": "Wildcall",
+            "cmc": 2,
+            "rarity": "Rare",
+            "artist": "Adam Paquette",
+            "manaCost": "{X}{G}{G}",
+            "text": "Manifest the top card of your library, then put X +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "flavor": "A howl on the wind hides many dangers.",
+            "number": "146",
+            "imageName": "wildcall"
+        },
+        {
+            "layout": "normal",
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "colors": [
+                "Blue"
+            ],
+            "multiverseid": 394090,
+            "name": "Write into Being",
+            "cmc": 3,
+            "rarity": "Common",
+            "artist": "Yeong-Hao Han",
+            "manaCost": "{2}{U}",
+            "text": "Look at the top two cards of your library. Manifest one of those cards, then put the other on the top or bottom of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
+            "number": "59",
+            "imageName": "write into being"
+        }
+    ],
+    "languagesPrinted": [
+        "Chinese Simplified",
+        "Chinese Traditional",
+        "French",
+        "German",
+        "Italian",
+        "Japanese",
+        "Korean",
+        "Portuguese (Brazil)",
+        "Russian",
+        "Spanish"
+    ]
+}

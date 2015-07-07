@@ -1,0 +1,17 @@
+//
+   Created by xuewenwen on 6/3/2015.
+
+h1 Comments
+//div(comments-Input="")
+
+
+div(ng-form="myform")
+   .form-group
+      label(for='body') Body:
+      textarea#body.form-control(ng-model='commentsController.data.comments[0].commentText', rows='5')
+      br
+      label(for='date') Date:
+      input#date.form-control(type='datetime', ng-model='commentsController.data.comments[0].date')
+
+br
+button(data-ng-click="commentsController.updateCurrentComments()") Update Current Comments

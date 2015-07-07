@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+
+  #monogoData(ng-controller='MyController')
+    p This project retrieves data from a Mongo DB Server.
+    button(ng-click='loadScientists()') Load Scientist Data
+    br
+    .inputDiv
+      p Rows in DB: {{scientistsLength}}
+      ul
+        li(ng-repeat='scientist in scientists')
+          p
+          | FirstName: {{scientist.firstName}}
+          br
+          | LastName: {{scientist.lastName}}
+          br
+          | Subject: {{scientist.subject}}
+      div(ng-bind-html-unsafe='hint')
+    .inputDiv
+      input(type='text', ng-model='firstName',placeholder='firstName')
+      input(type='text', ng-model='lastName', placeholder='lastName')
+      input(type='text', ng-model='city', placeholder='city')
+      input(type='text', ng-model='country', placeholder='country')
+      input(type='text', ng-model='subject', placeholder='subject')
+      button(ng-click='newScientist()') Add Scientist
+      hr
+      //input(type='number', ng-change='indexChange()', ng-model='indexOfItemToDelete', min='0', max='{{scientistsLength-1}}')
+      input(type='number', ng-change='indexChange()', ng-model='currentItem', min='0', max='{{scientistsLength-1}}')
+      button(ng-click='deleteRow()') Delete
+      button(ng-click='updateRow()') Update
+      p {{selectedIndex}}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="public\javascripts\Control.js">
+		<error line="7" column="15" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+		<error line="116" column="21" severity="warning" message="&apos;alert&apos; is not defined." source="jshint.W117" />
+		<error line="31" column="17" severity="warning" message="&apos;beethoven&apos; is defined but never used." source="jshint.W098" />
+		<error line="40" column="66" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="40" column="57" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="40" column="49" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="55" column="59" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="55" column="50" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="55" column="42" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="57" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="48" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="40" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="34" severity="warning" message="&apos;data&apos; is defined but never used." source="jshint.W098" />
+		<error line="80" column="41" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="80" column="26" severity="warning" message="&apos;deletedObject&apos; is defined but never used." source="jshint.W098" />
+		<error line="112" column="62" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="112" column="53" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="112" column="45" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="56" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="47" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="39" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="33" severity="warning" message="&apos;data&apos; is defined but never used." source="jshint.W098" />
+		<error line="122" column="40" severity="warning" message="&apos;musicians&apos; is defined but never used." source="jshint.W098" />
+	</file>
+	<file name="public\javascripts\MusicFacade.js">
+		<error line="5" column="1" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+		<error line="44" column="36" severity="warning" message="&apos;error&apos; is defined but never used." source="jshint.W098" />
+	</file>
+	<file name="public\javascripts\MusicResource.js">
+		<error line="48" column="41" severity="warning" message="A constructor name should start with an uppercase letter." source="jshint.W055" />
+		<error line="4" column="1" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+		<error line="25" column="13" severity="warning" message="&apos;bar&apos; is not defined." source="jshint.W117" />
+		<error line="31" column="20" severity="warning" message="&apos;bar&apos; is not defined." source="jshint.W117" />
+		<error line="55" column="30" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+	</file>
+	<file name="public\javascripts\SimpleMusicData.js">
+		<error line="7" column="5" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+		<error line="77" column="35" severity="warning" message="&apos;newRow&apos; is defined but never used." source="jshint.W098" />
+	</file>
+	<file name="public\javascripts\about.js">
+		<error line="5" column="14" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+	</file>
+	<file name="public\javascripts\app.js">
+		<error line="5" column="16" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+		<error line="7" column="42" severity="warning" message="&apos;$locationProvider&apos; is defined but never used." source="jshint.W098" />
+	</file>
+	<file name="public\javascripts\main.js">
+		<error line="6" column="14" severity="warning" message="&apos;angular&apos; is not defined." source="jshint.W117" />
+		<error line="116" column="17" severity="warning" message="&apos;alert&apos; is not defined." source="jshint.W117" />
+		<error line="31" column="13" severity="warning" message="&apos;beethoven&apos; is defined but never used." source="jshint.W098" />
+		<error line="40" column="62" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="40" column="53" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="40" column="45" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="55" column="55" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="55" column="46" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="55" column="38" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="53" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="44" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="36" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="58" column="30" severity="warning" message="&apos;data&apos; is defined but never used." source="jshint.W098" />
+		<error line="80" column="37" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="80" column="22" severity="warning" message="&apos;deletedObject&apos; is defined but never used." source="jshint.W098" />
+		<error line="112" column="58" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="112" column="49" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="112" column="41" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="52" severity="warning" message="&apos;config&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="43" severity="warning" message="&apos;headers&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="35" severity="warning" message="&apos;status&apos; is defined but never used." source="jshint.W098" />
+		<error line="115" column="29" severity="warning" message="&apos;data&apos; is defined but never used." source="jshint.W098" />
+		<error line="122" column="39" severity="warning" message="&apos;musicians&apos; is defined but never used." source="jshint.W098" />
+	</file>
+	<file name="test\spec\Test.js">
+		<error line="64" column="21" severity="warning" message="&apos;result&apos; is defined but never used." source="jshint.W098" />
+		<error line="133" column="22" severity="warning" message="&apos;isArray&apos; is defined but never used." source="jshint.W098" />
+	</file>
+</checkstyle>
