@@ -1,0 +1,21 @@
+//
+   Created by xuewenwen on 6/3/2015.
+p This project retrieves data from a Mongo DB Server.
+br
+ul.list-group
+   li.list-group-item(data-ng-repeat='musician in mongoController.allData')
+      <a ng-click="mongoController.selectMusican(musician)"> <strong>{{$index + 1}} -- {{musician.name}} : {{musician.genre}}</strong></a>
+h3 Current item:
+div(music-show="")
+
+h4 Subjects:
+ul
+   li(ng-repeat='subject in mongoController.data.subjects')
+      span {{subject}}
+
+h4 Comments:
+ul
+   li(ng-repeat='comment in mongoController.data.comments')
+      span {{comment.commentText}}
+
+#document(ng-bind-html="mongoController.document")

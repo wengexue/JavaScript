@@ -1,0 +1,17 @@
+extends menu-mixin
+
+
+
+block append content
+  h1= title
+  p Welcome to #{title}
+
+  +attribution
+
+  +bio
+
+  br
+  p#displayInfo
+  br
+  button#mainButton click me
+

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-left: 20px;
+    background-color: #EEEEEE;
+}
+.area {
+    float: left;
+    margin-left: 60px;
+    /*    margin-top: 20px;*/
+    margin-right: 60px;
+    width: 255px;
+}
+.display {
+    padding: 9px;
+    border-color: #0000FF;
+    border: solid thin #00A000;
+    border-radius: 6px;
+    background-color: #99CCCC;
+    margin-bottom: 10px;
+}
+button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+//margin-right: 1px;
+    border-radius: 6px;
+}
+.input3 {
+    width: 200px;
+    margin-bottom: 5px;
+}
+.input2 {
+    width: 80px;
+    margin-right: 5px;
+}

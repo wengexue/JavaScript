@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  
+  div
+    a(href='/auth/google') Log In
+  div
+    a(href='/auth/logout') Log out
+  div
+    a(href='/Account') Account
+  div
+    a(href='/login') Login
+
+  button#info Information
+  
+  div
+    p#report
+  div
+    p#debug

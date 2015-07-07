@@ -1,0 +1,32 @@
+//
+   Created by xuewenwen on 6/3/2015.
+
+h3 Current Item: {{commentsController.data.firstName}}&nbsp;{{commentsController.data.lastName}}
+br
+h4 Comments Lists:
+div
+   ul
+      li(ng-repeat='comment in commentsController.data.comments')
+         a(ng-click="commentsController.selectComment(comment)") {{comment.commentText}}
+
+
+br
+div(ng-form="newCommentForm")
+   textarea.form-control(ng-model='commentsController.newCommentText', rows='3', placeholder='Write a new comment here')
+   br
+   button.btn.btn-default(ng-click='commentsController.newComment()') Add new Comment
+hr
+div(ng-form="myform")
+   h4 Current selected comment
+   label(class='col-sm-2, control-label') Text
+   input.form-control(type='text', ng-model='commentsController.comment.commentText')
+   br
+   label(class='col-sm-2, control-label') Date
+   input.form-control(type='text', ng-model='commentsController.comment.date')
+   br
+   label(class='col-sm-2, control-label') Id
+   input.form-control(type='text', ng-model='commentsController.comment._id')
+   br
+   button.btn.btn-default(ng-click='commentsController.updateComment()') Update Comment
+   button.btn.btn-default(ng-click='commentsController.deleteComment()') Delete Comment
+br

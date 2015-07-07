@@ -1,0 +1,47 @@
+<h2>This is the <em>first</em> editor.</h2>
+
+<p>Just plain <strong>Markdown</strong>, except that the input is sanitized:</p>
+
+<p><marquee>I&#8217;m the ghost from the past!</marquee></p>
+
+<h1>Markdown Extra</h1>
+
+<h2>Tables</h2>
+
+<table>
+<thead>
+<tr>
+  <th>Item</th>
+  <th style="text-align:right;">Value</th>
+</tr>
+</thead>
+<tr>
+  <td>Air Conditioner</td>
+  <td style="text-align:right;">$1600</td>
+</tr>
+<tr>
+  <td><del>Phone</del></td>
+  <td style="text-align:right;">$12</td>
+</tr>
+<tr>
+  <td><em>Pipe</em></td>
+  <td style="text-align:right;">$1</td>
+</tr>
+</table>
+
+
+<p>I&#8217;ve added just some basic borders and padding. Notice that span-level tags will <br>
+still be rendered inside of the table. Also, you can specify a class for the generated <br>
+tables using <code>Markdown.Extra.init(converter, {table_class: "table table-striped"})</code> for instance.</p>
+
+<h2>Fenced Code Blocks</h2>
+
+<pre><code class="javascript">var foo = "bar";</code></pre>
+
+<p>You can also specify options. Markdown.Extra was given the following options <br>
+for this editor.</p>
+
+<pre><code class="javascript">  Markdown.Extra.init(converter1, {
+    extensions: "all",
+    highlighter: "prettify"
+  });</code></pre>

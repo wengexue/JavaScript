@@ -1,0 +1,22 @@
+{
+    "title": "fileList",
+    "type": "fileList",
+    "version": "v0.0.1",
+    "keywords": "images, shapes",
+    "License": "Creative Commons",
+    "authorInfo": {
+        "name": "Claudio Coder",
+        "website": "http://agilemanifesto.org/principles.html",
+        "email": "a@b.com"
+    },
+    "content": {
+        "President01.json": "Data/Presidents01.json",
+        "President02.json": "Data/Presidents02.json",
+        "President03.json": "Data/Presidents03.json",
+        "President04.json": "Data/Presidents04.json",
+        "PictureCaption.json": "Data/PictureCaption.json",
+        "DocumentData.json": "Data/DocumentData.json",
+        "Markdown01.md": "Data/Markdown01.md",
+        "Markdown02.md": "Data/Markdown02.md"
+    }
+}

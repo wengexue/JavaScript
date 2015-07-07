@@ -1,0 +1,37 @@
+{
+  "name": "karma-requirejs-example",
+  "version": "1.0.0",
+  "description": "Downloaded example",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjbekkelund/karma-requirejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjbekkelund/karma-requirejs/issues"
+  },
+  "homepage": "https://github.com/kjbekkelund/karma-requirejs",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-compress": "~0.13.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.3",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "karma-requirejs": "^0.2.2",
+    "karma-spec-reporter": "0.0.16",
+    "requirejs": "^2.1.15"
+  }
+}

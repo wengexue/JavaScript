@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="public/javascripts/Markdown/MarkShow.js">
+		<error line="5" column="9" severity="error" message="Missing &quot;use strict&quot; statement." source="jshint.E007" />
+	</file>
+</checkstyle>

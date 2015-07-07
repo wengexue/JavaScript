@@ -1,0 +1,9 @@
+{
+    "type": "Address",
+    "content": {
+        "firstName": "George",
+        "lastName": "Washington",
+        "address": "Washington D.C.",
+        "politicalParty": "Nonen"
+    }
+}

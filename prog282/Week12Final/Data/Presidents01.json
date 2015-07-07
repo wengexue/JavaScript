@@ -1,0 +1,19 @@
+{
+    "title": "Presidents01",
+    "type": "address",
+    "version": "v0.0.1",
+    "keywords": "images, shapes",
+    "License": "Creative Commons",
+    "authorInfo": {
+        "name": "Claudio Coder",
+        "website": "http://agilemanifesto.org/principles.html",
+        "email": "a@b.com"
+    },
+    "content": {
+        "firstName": "George",
+        "lastName": "Washington",
+        "address": "101 June Street",
+        "city": "Bellevue",
+        "state": "WA"
+    }
+}

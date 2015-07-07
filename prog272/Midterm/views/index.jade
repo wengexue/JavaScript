@@ -1,0 +1,58 @@
+extends menu-mixin
+
+block append content
+
+
+
+    .container
+        br
+        +jumbo("Prog272-Xue", "Here is a jade variable from index.js:Midterm", "Use bootstrap and Jade mixins to duplicate the appearance of the pages")
+        h2 HTML fields
+        br
+        button#insertMale Insert Male
+        button#insertFemale Inert Female
+        button#clear Clear
+        br
+        #inputInfo
+            input#inputFirstName.input3(type='text', value='', placeholder='First Name')
+            br
+            input#inputLastName.input3(type='text', value='', placeholder='Last Name')
+            br
+            input#inputCity.input3(type='text', value='', placeholder='City')
+            br
+            input#inputState.input2(type='text', maxlength='2', value='', placeholder='State')
+            br
+            input#inputZip.input2(type='number', max='99999', value='', placeholder='Zip')
+            input#inputAge.input2(type='number', max='130', value='', hidden='true')
+            br
+            input#male(type='radio', name='sex', value='male')
+            |   Male
+            input#female(type='radio', name='sex', value='female')
+            |   Female
+        #displayInfo
+            |   Name:
+            label#name
+            br
+            |   Address:
+            label#address
+            br
+            |   Age:
+            label#age
+            br
+            |   Gender:
+            label#gender
+            br
+
+
+    .container
+        br
+        +bio
+        //+jumbo("JsonAjax","Use the jQuery methods $.getJSON and $.ajax to load JSON into a bootstrap list-group using list-group-items.", "")
+        br
+        //button.btn.btn-primary(type='button')#getJson Load JSON with jquery.getJSON
+        //button.btn.btn-primary(type='button')#getAjax JSON with jquery.ajax
+        button#getJson Load JSON with jquery.getJSON
+        button#getAjax Load JSON with jquery.ajax
+        br
+        br
+        ul.list-group

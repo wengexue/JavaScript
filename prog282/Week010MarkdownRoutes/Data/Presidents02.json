@@ -1,0 +1,10 @@
+{
+    "type": "address",
+    "content": {
+        "firstName": "John",
+        "lastName": "Adams",
+        "address": "101 June Street",
+        "city": "Bellevue",
+        "state": "WA"
+    }
+}

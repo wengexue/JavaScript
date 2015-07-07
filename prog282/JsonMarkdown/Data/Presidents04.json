@@ -1,0 +1,9 @@
+{
+    "type": "Address",
+    "content": {
+        "firstName": "James",
+        "lastName": "Madison",
+        "address": "Washington D.C.",
+        "politicalParty": "Dem-Repub"
+    }
+}

@@ -1,0 +1,76 @@
+<body>
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <div class="navbar-header"></div>
+            <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Prog272 Midterm</a>
+        </div>
+        <div id="dropdown_menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li id="home" class="active"><a href="/">Home</a></li>
+                <li id="json-ajax"><a href="json-ajax.html">JsonAjax</a></li>
+                <li id="about"><a href="about.html">About</a></li>
+                <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Dropdown<span class="caret"></span></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Nav header
+                        </li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</body>
+<h1></h1>
+
+<div class="container"><br>
+    <div class="jumbotron">
+        <h1>Prog272-Xue</h1>
+        <p><em>by Wenge Xue</em></p>
+        <p>Here is a jade variable from index.js:Midterm<br><br>Use bootstrap and Jade mixins to duplicate the appearance of the pages</p>
+        <!--p This is the Midterm Project where I like to walk. <br>And then I just keep typing.-->
+
+
+    </div>
+    <h2>HTML fields</h2><br>
+    <button id="insertMale">Insert Male</button>
+    <button id="insertFemale">Inert Female</button>
+    <button id="clear">Clear</button><br>
+    <div id="inputInfo">
+        <input id="inputFirstName" type="text" value="" placeholder="First Name" class="input3"><br>
+        <input id="inputLastName" type="text" value="" placeholder="Last Name" class="input3"><br>
+        <input id="inputCity" type="text" value="" placeholder="City" class="input3"><br>
+        <input id="inputState" type="text" maxlength="2" value="" placeholder="State" class="input2"><br>
+        <input id="inputZip" type="number" max="99999" value="" placeholder="Zip" class="input2">
+        <input id="inputAge" type="number" max="130" value="" hidden="true" class="input2"><br>
+        <input id="male" type="radio" name="sex" value="male">  Male
+        <input id="female" type="radio" name="sex" value="female">  Female
+    </div>
+    <div id="displayInfo">  Name:
+        <label id="name"></label><br>  Address:
+        <label id="address"></label><br>  Age:
+        <label id="age"></label><br>  Gender:
+        <label id="gender"></label><br>
+    </div>
+</div>
+
+<div class="container"><br>
+    <div class="jumbotron">
+        <h1>JsonAjax</h1>
+        <p><em>by Wenge Xue</em></p>
+        <p>Use the jQuery methods<strong> $.getJSON</strong> and<strong> $.ajax</strong> to load JSON into a bootstrap<strong> list-group</strong> using<strong> list-group-items</strong>.</p>
+    </div>
+    <!--+jumbo("JsonAjax","Use the jQuery methods $.getJSON and $.ajax to load JSON into a bootstrap list-group using list-group-items.", "")--><br>
+    <!--button.btn.btn-primary(type='button')#getJson Load JSON with jquery.getJSON-->
+    <!--button.btn.btn-primary(type='button')#getAjax JSON with jquery.ajax-->
+    <button id="getJson">Load JSON with jquery.getJSON</button>
+    <button id="getAjax">Load JSON with jquery.ajax</button><br><br>
+    <ul class="list-group"></ul>
+</div>
+

@@ -1,0 +1,15 @@
+{
+  "name": "mochaintegrationtest",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}

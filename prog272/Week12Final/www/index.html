@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/Control.js"></script>
+    <script src="js/JsonAjax.js"></script>
+  </head>
+  <body>
+    <body>
+      <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <div class="navbar-header"></div>
+            <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Prog272 Final</a>
+          </div>
+          <div id="dropdown_menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li id="home" class="active"><a href="index.html">Home</a></li>
+              <li id="json-ajax"><a href="json-ajax.html">JsonAjax</a></li>
+              <li id="location"><a href="location.html">Location</a></li>
+              <li id="about"><a href="about.html">About</a></li>
+              <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle">Plugins<span class="caret"></span></a>
+                <ul role="menu" class="dropdown-menu">
+                    <li><a href="geoLoc.html">XueGeo</a></li>
+                    <li><a href="various.html">XueVarious</a></li>
+                    <li><a href="phoneCall.html">XuePhone</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </body>
+    <div class="container"><br>
+      <div class="jumbotron">
+        <h1>Prog272-Xue</h1>
+        <p><em>by Wenge Xue</em></p>
+        <p>Here is a jade variable from index.js:Midterm<br><br>Use bootstrap and Jade mixins to duplicate the appearance of the pages</p>
+        <!--p This is the Midterm Project where I like to walk. <br>And then I just keep typing.-->
+        
+        
+      </div>
+      <h2>HTML fields</h2><br>
+      <button id="insertMale">Insert Male</button>
+      <button id="insertFemale">Inert Female</button>
+      <button id="clear">Clear</button><br>
+      <div id="inputInfo">
+        <input id="inputFirstName" type="text" value="" placeholder="First Name" class="input3"><br>
+        <input id="inputLastName" type="text" value="" placeholder="Last Name" class="input3"><br>
+        <input id="inputCity" type="text" value="" placeholder="City" class="input3"><br>
+        <input id="inputState" type="text" maxlength="2" value="" placeholder="State" class="input2"><br>
+        <input id="inputZip" type="number" max="99999" value="" placeholder="Zip" class="input2">
+        <input id="inputAge" type="number" max="130" value="" hidden="true" class="input2"><br>
+        <input id="male" type="radio" name="sex" value="male">  Male
+        <input id="female" type="radio" name="sex" value="female">  Female
+      </div>
+      <div id="displayInfo">  Name:
+        <label id="name"></label><br>  Address:
+        <label id="address"></label><br>  Age:
+        <label id="age"></label><br>  Gender:
+        <label id="gender"></label><br>
+      </div>
+    </div>
+  </body>
+</html>

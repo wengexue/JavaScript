@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  h2 This is the Calculate Page!
+  
+  input#operanda(type='text', placeholder='operanda')
+  input#operandb(type='text', placeholder='operandb')
+  
+  p
+  
+  button#buttonGetNine Get Nine
+  button#buttonAdd Add
+  button#buttonMultiply Multiply
+  
+  p
+  
+  p#value

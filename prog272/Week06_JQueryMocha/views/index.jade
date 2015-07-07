@@ -1,0 +1,51 @@
+extends layout
+
+block content
+    h1= title
+    p This is the jquery demo
+
+    .area
+        h2 HTML fields
+        .display
+            button#insertMale Insert Male
+            button#insertFemale Inert Female
+            button#clear Clear
+        .display
+            input#inputFirstName.input3(type='text', value='', placeholder='First Name')
+            input#inputLastName.input3(type='text', value='', placeholder='Last Name')
+            input#inputCity.input3(type='text', value='', placeholder='City')
+            input#inputState.input2(type='text', maxlength='2', value='', placeholder='State')
+            input#inputZip.input2(type='number', max='99999', value='', placeholder='Zip')
+            input#inputAge.input2(type='number', max='130', value='' hidden='true', placeholder='Age')
+        .display
+            input#male(type='radio', name='sex', value='male')
+            | Male
+            input#female(type='radio', name='sex', value='female')
+            | Female
+        .display
+            button#getName Get name
+            button#getAddress Get address
+            button#getAge Get age
+        .display
+            | Name:
+            label#firstName
+            label#lastName
+            br
+            |     Address:
+            label#city
+            label#state
+            label#zip
+            br
+            |       Age:
+            label#age
+            br
+            label#radioResult
+
+    .area
+        h2 JSON
+        .display
+            button#getJson Load JSON with jquery.getJSON
+            button#getAjax Load JSON with jquery.ajax
+        .display
+            p Json file displays here
+            ul#jsonDisplay

@@ -1,0 +1,5 @@
+#! /bin/bash
+cordova plugin add https://github.com/anemitoff/PhoneGap-PhoneDialer
+cordova plugin add http://github.com/apache/cordova-plugin-geolocation.git
+cordova plugin add org.apache.cordova.camera
+cordova plugin add org.apache.cordova.vibration

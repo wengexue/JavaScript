@@ -1,0 +1,47 @@
+<script src="../public/js/Control.js"></script>
+<link href="../public/css/style.css" rel="stylesheet" type="text/css">
+<div class="area">
+    <h2>HTML fields</h2>
+    <div class="display">
+        <button id="insertMale">Insert Male</button>
+        <button id="insertFemale">Inert Female</button>
+        <button id="clear">Clear</button>
+    </div>
+    <div class="display">
+        <input id="inputFirstName" type="text" value="" placeholder="First Name" class="input3">
+        <input id="inputLastName" type="text" value="" placeholder="Last Name" class="input3">
+        <input id="inputCity" type="text" value="" placeholder="City" class="input3">
+        <input id="inputState" type="text" maxlength="2" value="" placeholder="State" class="input2">
+        <input id="inputZip" type="number" max="99999" value="" placeholder="Zip" class="input2">
+        <input id="inputAge" type="number" max="130" value="" hidden="true" placeholder="Age" class="input2">
+    </div>
+    <div class="display">
+        <input id="male" type="radio" name="sex" value="male">Male
+        <input id="female" type="radio" name="sex" value="female">Female
+    </div>
+    <div class="display">
+        <button id="getName">Get name</button>
+        <button id="getAddress">Get address</button>
+        <button id="getAge">Get age</button>
+    </div>
+    <div class="display">Name:
+        <label id="firstName"></label>
+        <label id="lastName"></label><br>    Address:
+        <label id="city"></label>
+        <label id="state"></label>
+        <label id="zip"></label><br>      Age:
+        <label id="age"></label><br>
+        <label id="radioResult"></label>
+    </div>
+</div>
+<div class="area">
+    <h2>JSON</h2>
+    <div class="display">
+        <button id="getJson">Load JSON with jquery.getJSON</button>
+        <button id="getAjax">Load JSON with jquery.ajax</button>
+    </div>
+    <div class="display">
+        <p>Json file displays here</p>
+        <ul id="jsonDisplay"></ul>
+    </div>
+</div>

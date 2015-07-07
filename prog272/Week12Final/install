@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cordova build android
+adb uninstall com.xue.prog272_final
+adb install platforms/android/ant-build/MainActivity-debug.apk
+

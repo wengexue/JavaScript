@@ -1,0 +1,19 @@
+extends menu-mixin
+
+block append content
+
+    .container
+        br
+        +bio
+        //+jumbo("JsonAjax","Use the jQuery methods $.getJSON and $.ajax to load JSON into a bootstrap list-group using list-group-items.", "")
+
+
+        br
+        //button.btn.btn-primary(type='button')#getJson Load JSON with jquery.getJSON
+        //button.btn.btn-primary(type='button')#getAjax JSON with jquery.ajax
+        button#getJson Load JSON with jquery.getJSON
+        button#getAjax Load JSON with jquery.ajax
+
+        br
+        br
+        ul.list-group

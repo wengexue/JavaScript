@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p displayName:  #{user}
+  p Email:  #{emails}
+  p Name:  #{name}
+  p Identifier:  #{identifier}
+  div
+    a(href='/auth/logout') Log out
+  div
+
+  button#info Information
+  
+  div
+    p#report
+  div
+    p#debug

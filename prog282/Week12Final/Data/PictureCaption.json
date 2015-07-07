@@ -1,0 +1,29 @@
+{
+    "title": "Pictures01",
+    "type": "pictureCaption",
+    "version": "v0.0.1",
+    "keywords": "images, shapes",
+    "License": "Creative Commons",
+    "authorInfo": {
+        "name": "Claudio Coder",
+        "website": "http://agilemanifesto.org/principles.html",
+        "email": "a@b.com"
+    },
+    "content": [
+        {
+            "title": "Deception01",
+            "url": "images/Deception01.png",
+            "caption": "Deception Falls near Stevens Pass"
+        },
+        {
+            "title": "Deception02",
+            "url": "images/Deception02.png",
+            "caption": "Deception Falls on Highway 2"
+        },
+        {
+            "title": "Deception03",
+            "url": "images/Deception03.png",
+            "caption": "Deception Falls runs high in the spring rains."
+        }
+    ]
+}

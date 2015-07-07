@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+excluded=//jquery-2.1.1.js\://require.js\:Tests/jasmine-2.0.0//*.js\:node_modules//*.js\:public/javascripts/Markdown//Markdown.Extra.js\:public/javascripts/Markdown//Markdown.Sanitizer.js\:public/javascripts/Markdown//prettify.js\:public/javascripts/Markdown/Markdown.Converter.js\:public/javascripts/Markdown/Markdown.Editor.js\:public/javascripts/Markdown/PagedownSetup.js
+included=//*.js
